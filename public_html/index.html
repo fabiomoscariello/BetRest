@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Bet Site</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="scripts/alertBet.js"></script>
+    </head>
+    <body>
+        <div id="bet-name">
+            <h1>Bet Site</h1>
+            <form id="bet-info" >
+                <div>
+                <label for="partita">Partita</label>
+                <div>
+                <select id="match" name="partita">
+                </select>
+                </div>
+                </div>
+                <div>
+                    <label for="scommessa">Cifra</label>
+                    <div>
+                        <input id="bet" name="scommessa" placeholder="0,00€" type=number>
+                    </div>
+                </div>
+                <div>
+                    <label for="match-result">Scommessa</label>
+                <select id="result_choice" name="match-result">
+                    
+                </select>
+                </div>
+                <div>
+                    <input id="betting" type="button" name="bet-send" value="Piazza">
+                </div>
+            </form>
+        </div>
+        <div id="bet_recap"></div>
+    </body>
+</html>
